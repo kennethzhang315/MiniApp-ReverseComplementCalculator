@@ -1,4 +1,4 @@
-# Reverse Complement Calculator#
+# Reverse Complement Calculator
 
 Build Docker image and run Docker container using following commands (run under directory "MiniApp-ReverseComplementCalculator\")
 
