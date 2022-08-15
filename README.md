@@ -1,6 +1,6 @@
 # Reverse Complement Calculator#
 
-Build Docker image and run Docker container using following commands (run under directory "reverse-comp-calculator\")
+Build Docker image and run Docker container using following commands (run under directory "MiniApp-ReverseComplementCalculator\")
 
 ```bash
 $ docker build -t reverse_comp_calculator .
