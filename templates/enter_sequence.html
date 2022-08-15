@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reverse Complement Calculator</title>
+    </head>
+    <body>
+        <form action="enter_sequence_output" method="post">
+            {% for message in get_flashed_messages()%}
+                <p> {{message}} </p>
+            {% endfor %}
+            <input type="text" name="sequence_input">
+            <br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+        <form action="home" method="post">
+            <br>
+            <input type="submit" value="Back to Home Page" id="home">
+        </form>
+    </body>
+
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reverse Complement Calculator</title>
+    </head>
+    <body>
+        <form action="upload_file_output" method="post" enctype="multipart/form-data">
+            {% for message in get_flashed_messages()%}
+                <p> {{message}} </p>
+            {% endfor %}
+            <div class="form-group">
+                <label>Select File</label>
+                <div class = "custom-file">
+                    <input type="file" class="custom-file-input" name="file" id="file">
+
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Upload File</button>
+        </form>
+        <form action="home" method="post">
+            <br>
+            <input type="submit" value="Back to Home Page" id="home">
+        </form>
+    </body>
+
+
+</html>
